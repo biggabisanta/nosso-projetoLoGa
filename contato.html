@@ -1,8 +1,12 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-Br">
 
 <head>
-    <title> Meu primeiro site</title>
+    <meta charset="Utf-8">
+    <title>Livreira</title>
+    <link rel="icon" type="imagem/png" href="assets/img/livreira.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -18,8 +22,8 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-            <a class="navbar-brand" href="#">Livreira</a>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top p-4">
+            <a href="index.html" class="pr-2"><img src="assets/img/logo2.png" alt="logo da livreira"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -47,15 +51,17 @@
             </div>
         </nav>
     </header>
-    <section class="container mt-5 pt-4">
-        <h2 class="mt-5">Contato</h2>
+    <section class="container my-5 py-5">
+        <h2 class="mt-5 pt-5">Contato</h2>
         <div class="row mt-5">
             <div class="col-sm">
-                <p>Emails:</p>
-                <p>lorenyielpo@gmail.com</p>
-                <p>gaah.dedelly@gmail.com</p>
-                <p>Endereço:</p>
-                <p>Rua das Dores, 324, Interlagos, São Paulo - SP</p>
+                <p class="lead"><strong>Emails:</strong></p>
+                <p class="lead">lorenyielpo@gmail.com</p>
+                <p class="lead">gaah.dedelly@gmail.com</p>
+                <p class="lead"><strong>Endereço:</strong></p>
+                <p class="lead">Rua das Dores, 324, Interlagos, São Paulo - SP</p>
+                <p class="lead"><strong>A Livreira agradece o interesse!</strong></p>
+                <img src="assets/img/logo.png" alt="logo da livreira" class="mt-4">
             </div>
             <div class="embed-responsive embed-responsive-16by9 col-sm-7">
                 <iframe
@@ -63,7 +69,7 @@
                     frameborder="0" style="border:0" allowfullscreen></iframe></iframe>
             </div>
         </div>
-        <div class="contact container mt-5 px-0">
+        <div class="contact container my-5 px-0">
             <form>
                 <div class="form-row">
                     <div class="form-group col-md-6">
@@ -120,6 +126,40 @@
             </form>
         </div>
     </section>
+    <footer class="footer mt-5 py-4 bg-dark">
+        <div class="container row mx-auto py-2">
+            <div class="col-sm-3 mx-auto">
+                <p class="text-muted mb-0"><strong>Contato</strong></p>
+                <p class="text-muted mb-0">lorenyielpo@gmail.com</p>
+                <p class="text-muted mb-0">gaah.dedelly@gmail.com</p>
+            </div>
+            <div class="col-sm mx-auto col-sm-3">
+                <p class="text-muted mb-0"><strong>Endereço:</strong></p>
+                <p class="text-muted mb-0">Rua das Dores, 324, Interlagos, São Paulo - SP</p>
+            </div>
+            <div class="col-sm-4 mb-0 mx-auto">
+                <p class="text-muted mb-3"><strong>Redes Sociais:</strong></p>
+                <a href="https://www.facebook.com/" target="blank">
+                    <button type="button" class="btn btn-fb text-muted"><i class="fab fa-facebook-f pr-1"></i></button>
+                </a>
+                <a href="https://www.twitter.com/" target="blank">
+                    <button type="button" class="btn btn-tw text-muted"><i class="fab fa-twitter pr-1"></i></button>
+                </a>
+                <a href="https://www.linkedin.com/" target="blank">
+                    <button type="button" class="btn btn-li text-muted"><i class="fab fa-linkedin-in pr-1"></i></button>
+                </a>
+                <a href="https://www.instagram.com/" target="blank">
+                    <button type="button" class="btn btn-ins text-muted"><i class="fab fa-instagram pr-1"></i></button>
+                </a>
+                <a href="https://www.pinterest.com/" target="blank">
+                    <button type="button" class="btn btn-pin text-muted"><i class="fab fa-pinterest pr-1"></i></button>
+                </a>
+                <a href="https://www.youtube.com/" target="blank">
+                    <button type="button" class="btn btn-yt text-muted"><i class="fab fa-youtube pr-1"></i></button>
+                </a>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
