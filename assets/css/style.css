@@ -81,3 +81,12 @@ p, li, a, dd, dt, blockquote, h2, h3, th, td, caption{
 .bio{
     margin: 3% auto;
 }
+
+.projects a, .projects h3{
+    color:#5FA193;
+    text-decoration: underline;
+}
+
+.projects a:hover, .projects h3:hover{
+    color: #F26983;
+}
